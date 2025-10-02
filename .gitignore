@@ -2,7 +2,11 @@
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
-.idea/*.iml
+!**/.idea
+
+# file: ~/.gitignore_global
+.DS_Store
+.idea
 
 ### Eclipse ###
 .apt_generated
